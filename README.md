@@ -210,26 +210,26 @@ We also share some experience on how to fine tune the hyperparameter to gain a m
 
 Our implemetation is base on [fast-style-transfer](https://github.com/lengstrom/fast-style-transfer) 
 
-Following are some example that training target style by parameters, content weight(cw), style weight(sw), and batch size: 1. 
+Following are some example that training target style by parameters, content weight(cw), style weight(sw), and batch size: 1.  
 
 <table><tr><td>content</td><td>Result</td><td>Picasso Style</td></tr>
-<tr><td><img src = 'examples/content/Sidewalk.jpg' height = '180px'> </td><td><img src='examples/results/a_muse_1935-NHWC_nbc4_bs1_7e00_1e02_0.001/Sidewalk.jpg' height='180px'><br>cw:7e0, sw:1e02</td><td><img src = 'examples/style/a_muse.jpg' height = '180px'><br>a muse 1935</td></tr>
+<tr><td><img src = 'examples/content/Sidewalk.jpg' height = '180px'> <br> a sidewalk </td><td><img src='examples/results/a_muse_1935-NHWC_nbc4_bs1_7e00_1e02_0.001/Sidewalk.JPG' height='180px'><br>cw:7e0, sw:1e02</td><td><img src = 'examples/style/a_muse.jpg' height = '180px'><br>a muse 1935</td></tr>
 
-<tr><td><img src = 'examples/content/Sidewalk.jpg' height = '180px'></td><td><img src = 'examples/results/bullfight_1934-NHWC_nbc4_bs1_7e00_1e02_0.001/Sidewalk.jpg' height = '180px'><br>cw:7e0, sw:1e02</td><td><img src = 'examples/style/bullfight.jpg' height = '180px'><br>bullfight 1934</td></tr>
+<tr><td><img src = 'examples/content/Sidewalk.jpg' height = '180px'> <br> a sidewalk</td><td><img src = 'examples/results/bullfight_1934-NHWC_nbc4_bs1_7e00_1e02_0.001/Sidewalk.JPG' height = '180px'><br>cw:7e0, sw:1e02</td><td><img src = 'examples/style/bullfight.jpg' height = '180px'><br>bullfight 1934</td></tr>
 
-<tr><td><img src = 'examples/content/Sidewalk.jpg' height = '180px'></td><td><img src = 'examples/results/crucifixion_1930-NHWC_nbc4_bs1_7e00_3e01_0.001/Sidewalk.jpg' height = '180px'><br>cw:7e0, sw:3e01</td><td><img src = 'examples/style/crucifixion.jpg' height = '180px'><br>crucifixion 1930</td></tr>
+<tr><td><img src = 'examples/content/Sidewalk.jpg' height = '180px'> <br> a sidewalk</td><td><img src = 'examples/results/crucifixion_1930-NHWC_nbc4_bs1_7e00_3e01_0.001/Sidewalk.JPG' height = '180px'><br>cw:7e0, sw:3e01</td><td><img src = 'examples/style/crucifixion.jpg' height = '180px'><br>crucifixion 1930</td></tr>
 
-<tr><td><img src = 'examples/content/Sidewalk.jpg' height = '180px'></td><td><img src = 'examples/results/girl_in_front_of_mir_1932-NHWC_nbc4_bs1_7e00_5e01_0.001/Sidewalk.jpg' height = '180px'><br>cw:7e0, sw:5e01</td><td><img src = 'examples/style/girl_in_front_of_mir.jpg' height = '180px'><br>girl in front of mir 1932</td></tr>
+<tr><td><img src = 'examples/content/Sidewalk.jpg' height = '180px'> <br> a sidewalk</td><td><img src = 'examples/results/girl_in_front_of_mir_1932-NHWC_nbc4_bs1_7e00_5e01_0.001/Sidewalk.JPG' height = '180px'><br>cw:7e0, sw:5e01</td><td><img src = 'examples/style/girl_in_front_of_mir.jpg' height = '180px'><br>girl in front of mir 1932</td></tr>
 
-<tr><td><img src = 'examples/content/Sidewalk.jpg' height = '180px'></td><td><img src = 'examples/results/still_life_with_lamp_1944-NHWC_nbc4_bs1_7e00_1e02_0.001/Sidewalk.jpg' height = '180px'><br>cw:7e0, sw:1e02</td><td><img src = 'examples/style/still_life_with_lamp.jpg' height = '180px'><br>still life with lamp 1944</td></tr>
+<tr><td><img src = 'examples/content/Sidewalk.jpg' height = '180px'> <br> a sidewalk</td><td><img src = 'examples/results/still_life_with_lamp_1944-NHWC_nbc4_bs1_7e00_1e02_0.001/Sidewalk.JPG' height = '180px'><br>cw:7e0, sw:1e02</td><td><img src = 'examples/style/still_life_with_lamp.jpg' height = '180px'><br>still life with lamp 1944</td></tr>
 
-<tr><td><img src = 'examples/content/Sidewalk.jpg' height = '180px'></td><td><img src = 'examples/results/the_rescue_1932-NHWC_nbc4_bs1_7e00_1e02_0.001/Sidewalk.jpg' height = '180px'><br>cw:7e0, sw:1e02</td><td><img src = 'examples/style/the_rescue.jpg' height = '180px'><br>the rescue 1932</td></tr>
+<tr><td><img src = 'examples/content/Sidewalk.jpg' height = '180px'> <br> a sidewalk</td><td><img src = 'examples/results/the_rescue_1932-NHWC_nbc4_bs1_7e00_1e02_0.001/Sidewalk.JPG' height = '180px'><br>cw:7e0, sw:1e02</td><td><img src = 'examples/style/the_rescue.jpg' height = '180px'><br>the rescue 1932</td></tr>
 
-<tr><td><img src = 'examples/content/Sidewalk.jpg' height = '180px'></td><td><img src = 'examples/results/the_sailor_1938-NHWC_nbc4_bs1_7e00_15e02_0.001/Sidewalk.jpg' height = '180px'><br>cw:7e0, sw:1.5e02</td><td><img src = 'examples/style/the_sailor.jpg' height = '180px'><br> the sailor 1938</td></tr>
+<tr><td><img src = 'examples/content/Sidewalk.jpg' height = '180px'> <br> a sidewalk</td><td><img src = 'examples/results/the_sailor_1938-NHWC_nbc4_bs1_7e00_15e02_0.001/Sidewalk.JPG' height = '180px'><br>cw:7e0, sw:1.5e02</td><td><img src = 'examples/style/the_sailor.jpg' height = '180px'><br> the sailor 1938</td></tr>
 
-<tr><td><img src = 'examples/content/Sidewalk.jpg' height = '180px'></td><td><img src = 'examples/results/tomato_plant_1944-NHWC_nbc4_bs1_7e00_1e02_0.001/Sidewalk.jpg' height = '180px'><br>cw:7e0, sw:1e02</td><td><img src = 'examples/style/tomato_plant.jpg' height = '180px'><br>tomato plant 1944</td></tr>
+<tr><td><img src = 'examples/content/Sidewalk.jpg' height = '180px'> <br> a sidewalk</td><td><img src = 'examples/results/tomato_plant_1944-NHWC_nbc4_bs1_7e00_1e02_0.001/Sidewalk.JPG' height = '180px'><br>cw:7e0, sw:1e02</td><td><img src = 'examples/style/tomato_plant.jpg' height = '180px'><br>tomato plant 1944</td></tr>
 
-<tr><td><img src = 'examples/content/Sidewalk.jpg' height = '180px'></td><td><img src = 'examples/results/woman_with_red_hat_1934-NHWC_nbc4_bs1_7e00_1e02_0.001/Sidewalk.jpg' height = '180px'><br>cw:7e0, sw:1e02</td><td><img src = 'examples/style/woman_with_red_hat.jpg' height = '180px'><br>woman with red hat 1934 </td></tr>
+<tr><td><img src = 'examples/content/Sidewalk.jpg' height = '180px'> <br> a sidewalk</td><td><img src = 'examples/results/woman_with_red_hat_1934-NHWC_nbc4_bs1_7e00_1e02_0.001/Sidewalk.JPG' height = '180px'><br>cw:7e0, sw:1e02</td><td><img src = 'examples/style/woman_with_red_hat.jpg' height = '180px'><br>woman with red hat 1934 </td></tr>
 
 </table>
 
