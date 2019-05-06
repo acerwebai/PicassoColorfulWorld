@@ -195,9 +195,9 @@ In this practice, we offer 3 style similar level to let you experience the diffe
 
 If you need get freeze model file, following the instruction that tensorflow bundled here
 ```
-python -m tensorflow.python.tools.freeze_graph --input_graph=tf-model/starrynight-300-255-NHWC_nbc8_bs1_7e00_1e03_0.001/graph.pbtxt \
---input_checkpoint=tf-model/starrynight-300-255-NHWC_nbc8_bs1_7e00_1e03_0.001/saver \
---output_graph=tf-models/starrynight.pb --output_node_names="output"
+python -m tensorflow.python.tools.freeze_graph --input_graph=tf-model/a_muse_1935-NHWC_nbc4_bs1_7e00_1e02_0.001/graph.pbtxt \
+--input_checkpoint=tf-model/a_muse_1935-NHWC_nbc4_bs1_7e00_1e02_0.001/saver \
+--output_graph=tf-models/_a_muse.pb --output_node_names="output"
 ```
 
 
