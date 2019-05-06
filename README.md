@@ -221,15 +221,15 @@ Following are some example that training target style by parameters, content wei
 
 <tr><td><img src = 'examples/content/Sidewalk.jpg' height = '180px'> <br> a sidewalk</td><td><img src = 'examples/results/girl_in_front_of_mir_1932-NHWC_nbc4_bs1_7e00_5e01_0.001/Sidewalk.JPG' height = '180px'><br>cw:7e0, sw:5e01</td><td><img src = 'examples/style/girl_in_front_of_mir.jpg' height = '180px'><br>girl in front of mir 1932</td></tr>
 
-<tr><td><img src = 'examples/content/Sidewalk.jpg' height = '180px'> <br> a sidewalk</td><td><img src = 'examples/results/still_life_with_lamp_1944-NHWC_nbc4_bs1_7e00_1e02_0.001/Sidewalk.JPG' height = '180px'><br>cw:7e0, sw:1e02</td><td><img src = 'examples/style/still_life_with_lamp.jpg' height = '180px'><br>still life with lamp 1944</td></tr>
+<tr><td><img src = 'examples/content/Sidewalk.jpg' height = '180px'> <br> a sidewalk</td><td><img src = 'examples/results/boy_with_a_pipe_1905-NHWC_nbc4_bs1_7e00_1e02_0.001/Sidewalk.JPG' height = '180px'><br>cw:7e0, sw:1e02</td><td><img src = 'examples/style/boy_with_a_pipe.jpg' height = '180px'><br>boy with a pipe 1905</td></tr>
 
 <tr><td><img src = 'examples/content/Sidewalk.jpg' height = '180px'> <br> a sidewalk</td><td><img src = 'examples/results/the_rescue_1932-NHWC_nbc4_bs1_7e00_1e02_0.001/Sidewalk.JPG' height = '180px'><br>cw:7e0, sw:1e02</td><td><img src = 'examples/style/the_rescue.jpg' height = '180px'><br>the rescue 1932</td></tr>
 
-<tr><td><img src = 'examples/content/Sidewalk.jpg' height = '180px'> <br> a sidewalk</td><td><img src = 'examples/results/the_sailor_1938-NHWC_nbc4_bs1_7e00_15e02_0.001/Sidewalk.JPG' height = '180px'><br>cw:7e0, sw:1.5e02</td><td><img src = 'examples/style/the_sailor.jpg' height = '180px'><br> the sailor 1938</td></tr>
+<tr><td><img src = 'examples/content/Sidewalk.jpg' height = '180px'> <br> a sidewalk</td><td><img src = 'examples/results/Les_Demoiselles_d_Avignon-NHWC_nbc4_bs1_7e00_1e02_0.001/Sidewalk.JPG' height = '180px'><br>cw:7e0, sw:1e02</td><td><img src = 'examples/style/Les_Demoiselles_d_Avignon.jpg' height = '180px'><br> Les Demoiselles d'Avignon</td></tr>
 
 <tr><td><img src = 'examples/content/Sidewalk.jpg' height = '180px'> <br> a sidewalk</td><td><img src = 'examples/results/tomato_plant_1944-NHWC_nbc4_bs1_7e00_1e02_0.001/Sidewalk.JPG' height = '180px'><br>cw:7e0, sw:1e02</td><td><img src = 'examples/style/tomato_plant.jpg' height = '180px'><br>tomato plant 1944</td></tr>
 
-<tr><td><img src = 'examples/content/Sidewalk.jpg' height = '180px'> <br> a sidewalk</td><td><img src = 'examples/results/woman_with_red_hat_1934-NHWC_nbc4_bs1_7e00_1e02_0.001/Sidewalk.JPG' height = '180px'><br>cw:7e0, sw:1e02</td><td><img src = 'examples/style/woman_with_red_hat.jpg' height = '180px'><br>woman with red hat 1934 </td></tr>
+<tr><td><img src = 'examples/content/Sidewalk.jpg' height = '180px'> <br> a sidewalk</td><td><img src = 'examples/results/Sleeping_Peasants_1919-NHWC_nbc4_bs1_7e00_7e01_0.001/Sidewalk.JPG' height = '180px'><br>cw:7e0, sw:7e01</td><td><img src = 'examples/style/Sleeping_Peasants.jpg' height = '180px'><br>Sleeping Peasants 1919 </td></tr>
 
 </table>
 
